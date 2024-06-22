@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(34, 34, 34); /* Define a cor de fundo da página */
+    color: white; /* Define a cor do texto */
+    font-family: poppinsregular; /* Define a fonte do texto */
+    max-width: 1200px; /* Define a largura máxima da página */
+    margin: 0 auto; /* Centraliza a página horizontalmente */
+    padding: 15px; /* Adiciona um padding interno */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Exibe os itens como flexbox */
+    justify-content: space-between; /* Espaça os itens igualmente */
+}
+
+li {
+    margin: 0 15px; /* Adiciona margem horizontal aos itens */
+}
+
+a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #000; /* Define a cor do texto dos links */
+}
+
+a:hover {
+    color: #007BFF; /* Altera a cor do texto ao passar o mouse */
+}
+
+header {
+    display: flex; /* Define o cabeçalho como flexbox */
+    flex-direction: row; /* Organiza os itens em linha */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+#title {
+    flex-direction: column; /* Organiza os títulos em coluna */
+    line-height: 10px; /* Define a altura da linha */
+}
+
+li {
+    display: inline-block; /* Exibe os itens em linha */
+}
+
+a {
+    color: white; /* Define a cor do texto dos links como branco */
+}
+
+a:hover {
+    color: rgb(132, 14, 201); /* Altera a cor do texto ao passar o mouse */
+    transition: 0.3s all; /* Define uma transição suave */
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201); /* Define uma borda roxa */
+    padding: 0px; /* Remove o padding interno */
+    border-radius: 15px; /* Arredonda os cantos da borda */
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(132, 14, 201); /* Altera a cor de fundo ao passar o mouse */
+    color: white; /* Define a cor do texto como branco */
+}
+
+h1 {
+    font-weight: 200; /* Define o peso da fonte como leve */
+}
+
+main {
+    display: flex; /* Define o conteúdo principal como flexbox */
+    flex-direction: row; /* Organiza os itens em linha */
+    margin-top: 50px; /* Adiciona uma margem superior */
+}
+
+h2 {
+    font-size: 56px; /* Define o tamanho da fonte */
+    line-height: 10px; /* Define a altura da linha */
+    font-family: poppinsmedium; /* Define a fonte do texto */
+}
+
+span {
+    color: rgb(132, 14, 201); /* Define a cor do texto */
+}
+
+p {
+    line-height: 20px; /* Define a altura da linha */
+    max-width: 500px; /* Define a largura máxima do parágrafo */
+    font-family: poppinslight; /* Define a fonte do texto */
+}
+
+img {
+    width: 580px; /* Define a largura da imagem */
+}
+
+form {
+    display: flex; /* Define o formulário como flexbox */
+    flex-direction: column; /* Organiza os itens em coluna */
+    width: 70%; /* Define a largura do formulário */
+}
+
+form [type="submit"] {
+    height: 50px; /* Define a altura do botão de envio */
+    width: 50%; /* Define a largura do botão de envio */
+    background-color: rgb(132, 14, 201); /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+form [type="submit"]:hover {
+    cursor: pointer; /* Define o cursor como pointer ao passar o mouse */
+}
+
+input {
+    margin-top: 20px; /* Adiciona uma margem superior */
+    height: 20px; /* Define a altura do campo de entrada */
+    padding: 15px; /* Adiciona padding interno */
+    border-radius: 20px; /* Arredonda os cantos da borda */
+    border: none; /* Remove a borda */
+    font-size: 15px; /* Define o tamanho da fonte */
+}
